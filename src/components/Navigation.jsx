@@ -1,10 +1,9 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
-// eslint-disable-next-line
-import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
-import { LinkContainer } from 'react-router-bootstrap'
+import { Navbar, Nav, Container } from "react-bootstrap";
 
 function Navigation(props) {
+  const { location } = props;
   return (
     <div className="navigation">
       <Navbar bg="light" expand="lg">
@@ -12,13 +11,9 @@ function Navigation(props) {
           <Navbar.Brand>EDELWEISS</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <LinkContainer to="/">
-                <Nav.Link>Home</Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/about">
-                <Nav.Link>About</Nav.Link>
-              </LinkContainer>
+            <Nav activeKey={location.pathname} className="me-auto">
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="/about">About</Nav.Link>
               {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
