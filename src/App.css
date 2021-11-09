@@ -1,4 +1,13 @@
-.App {
+element {
+  --main-bg-color: brown;
+}
+
+element {
+  background-color: var(--main-bg-color);
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +44,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
