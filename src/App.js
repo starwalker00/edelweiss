@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// eslint-disable-next-line
 import { Navigation, Footer, Home, About } from "./components";
 import './scss/App.scss';
 import './scss/custom.scss';
@@ -13,7 +14,7 @@ function App() {
           <Route path="/" exact component={() => <Home />} />
           <Route path="/about" exact component={() => <About />} />
         </Switch>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </div>
   );
