@@ -6,6 +6,10 @@ function Schedule() {
     <div className="schedule">
       <Container>
         <Row>
+          <Col>Heures d'ouverture</Col>
+        </Row>
+        <hr/>
+        <Row>
           <Col>lundi</Col>
           <Col>12h-13h30 | 19h30-22h</Col>
         </Row>
