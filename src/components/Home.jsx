@@ -8,7 +8,6 @@ function Home() {
       <Container fluid className="text-center">
         <Row>
           <Col>
-            <Image src="http://placehold.it/900x400" rounded />
           </Col>
         </Row>
         <Row>
