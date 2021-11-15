@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
+import Schedule from "./Schedule";
 
 function Home() {
   return (
@@ -17,7 +18,7 @@ function Home() {
         </Row>
         <Row>
           <Col>
-            <Image src="http://placehold.it/900x400" rounded />
+            <Schedule />
           </Col>
         </Row>
       </Container>
