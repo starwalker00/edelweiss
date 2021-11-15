@@ -6,16 +6,16 @@ function Home() {
   return (
     <div className="home">
       <Container fluid className="text-center">
-        <Row>
+        <Row className="mt-4">
           <Col>
           </Col>
         </Row>
-        <Row>
+        <Row className="mt-4">
           <Col>
             <Image src="./img/1.jpg" fluid />
           </Col>
         </Row>
-        <Row>
+        <Row className="mt-4">
           <Col>
             <Schedule />
           </Col>
