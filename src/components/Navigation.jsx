@@ -9,7 +9,10 @@ function Navigation(props) {
       <Navbar bg="light" expand="lg">
         <Container>
           <Navbar.Brand>EDELWEISS</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="basic-navbar-nav" >
+            <span class="navbar-toggler-icon"></span>
+            <div class="close-icon py-1">✖</div>
+          </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav activeKey={location.pathname} className="me-auto">
                 <Nav.Link href="/">Home</Nav.Link>
