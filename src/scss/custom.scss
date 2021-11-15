@@ -17,8 +17,10 @@ $navbar-light-toggler-border-color: rgba(255, 255, 255, 0);
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    outline-width: 1px;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    // outline-width: 1px;
+    // box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    outline-width: none;
+    box-shadow: none;
 }
 
 // switch navbar-icon between burger and cross
