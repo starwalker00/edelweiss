@@ -6,7 +6,7 @@ function Schedule() {
     <div className="schedule">
       <Container className="text-center">
         <Row>
-          <Col>Heures d'ouverture</Col>
+          <Col>Horaires d'ouverture</Col>
         </Row>
         <hr/>
         <Row>
