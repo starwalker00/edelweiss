@@ -6,9 +6,9 @@ function Navigation(props) {
   const { location } = props;
   return (
     <div className="navigation">
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="dark" expand="lg">
         <Container>
-          <Navbar.Brand>EDELWEISS</Navbar.Brand>
+          <Navbar.Brand href="/">EDELWEISS</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" >
             <span class="navbar-toggler-icon"></span>
             <div class="close-icon py-1">✖</div>

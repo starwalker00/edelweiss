@@ -8,7 +8,7 @@ import 'react-medium-image-zoom/dist/styles.css'
 function Menu() {
   return (
     <div className="menu">
-      <Navbar className="navbar-expand" variant="light" bg="light" sticky="top">
+      <Navbar className="navbar-expand" sticky="top">
         <Container>
           <Nav className="m-auto">
             <Nav.Item>
