@@ -53,3 +53,36 @@ $navbar-light-toggler-border-color: rgba(255, 255, 255, 0);
     background-color: $light;
     border-bottom: 1px solid $dark;
 }
+
+// reduce size of images of the menu on large screens
+/* xs */
+.menu img {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* sm */
+@media (min-width: 768px) {
+    .menu img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+}
+/* md */
+@media (min-width: 992px) {
+    .menu img {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;        
+    }
+}
+/* lg */
+@media (min-width: 1200px) {
+    .menu img {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
