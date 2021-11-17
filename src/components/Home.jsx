@@ -3,6 +3,7 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 import Schedule from "./Schedule";
 import MyCarousel from "./MyCarousel";
 import { Card } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
 function Home() {
   const cards_img = [
@@ -38,6 +39,16 @@ function Home() {
               </Card>
             </Col>
           ))}
+        </Row>
+        <Row className="mt-4 mx-3">
+          <Col>
+            <Card>
+              <Card.Body>
+                <Card.Title>Consultez notre carte</Card.Title>
+                <Button variant="primary" href="/menu">Menu</Button>
+              </Card.Body>
+            </Card>
+            </Col>
         </Row>
         <Row className="mt-4">
           <Col>
