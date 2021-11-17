@@ -15,6 +15,9 @@ function Menu() {
               <Nav.Link href="#carte">Carte</Nav.Link>
             </Nav.Item>
             <Nav.Item>
+              <Nav.Link href="#salades">Salades</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
               <Nav.Link href="#vins">Vins</Nav.Link>
             </Nav.Item>
           </Nav>
@@ -31,6 +34,13 @@ function Menu() {
         <Row>
           <Col>
             <Zoom>
+              <Image id="salades" className="menu-img img-fluid" src="./img/menu/salades_i283726789586962023._szw1280h1280_.jpg" />
+            </Zoom>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Zoom>
               <Image id="vins" className="menu-img img-fluid" src="./img/menu/vins1_i283726789586882369._szw1280h1280_.jpg" />
             </Zoom>
           </Col>
@@ -41,7 +51,7 @@ function Menu() {
               <Image className="menu-img img-fluid" src="./img/menu/vins2_i283726789573158456._szw1280h1280_.jpg" />
             </Zoom>
           </Col>
-        </Row>        
+        </Row>   
       </Container>
     </div>
   );
