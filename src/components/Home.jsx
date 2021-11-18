@@ -41,13 +41,8 @@ function Home() {
           ))}
         </Row>
         <Row className="mt-4 mx-3">
-          <Col>
-            <Card className="bg-info">
-              <Card.Body>
-                <Card.Title>Consultez notre carte</Card.Title>
-                <Button variant="primary" href="/menu">Menu</Button>
-              </Card.Body>
-            </Card>
+          <Col className="d-grid mx-5">
+            <Button variant="primary" href="/menu" size="lg" className="text-white bold">Consulter notre carte</Button>
           </Col>
         </Row>
         <Row className="mt-4">
