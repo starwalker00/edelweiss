@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Schedule from "./Schedule";
 import MyCarousel from "./MyCarousel";
-import Map from "./Map";
+import CustomMap from "./CustomMap";
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 
@@ -60,7 +60,7 @@ function Home() {
         {/* map */}
         <Row id="map" className="mt-4 mb-4">
           <Col>
-            <Map />
+            <CustomMap />
           </Col>
         </Row>
       </Container >
