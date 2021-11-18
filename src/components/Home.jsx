@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Schedule from "./Schedule";
 import MyCarousel from "./MyCarousel";
+import Map from "./Map";
 import { Card } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 
@@ -16,8 +17,8 @@ function Home() {
         <Row className="mt-4">
           <Col xs={12} md={8} className="m-auto">
             <h1>L'Edelweiss</h1>
-            <h2>Restaurant Savoyard à Rennes</h2>
-            <p className="lead">
+            <h2>Restaurant Savoyard <a href="#map" className="lead text-nowrap link-dark">Rue de Saint-Malo à Rennes</a></h2>
+            <p className="p-2 mark">
               Dans un cadre chaleureux, goûtez les principales recettes savoyardes et vivez un moment innoubliable.
             </p>
           </Col>
@@ -50,9 +51,16 @@ function Home() {
             <MyCarousel></MyCarousel>
           </Col>
         </Row>
+        {/* schedule */}
         <Row className="mt-4 mb-4">
           <Col>
             <Schedule />
+          </Col>
+        </Row>
+        {/* map */}
+        <Row id="map" className="mt-4 mb-4">
+          <Col>
+            <Map />
           </Col>
         </Row>
       </Container >
