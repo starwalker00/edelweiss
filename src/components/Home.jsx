@@ -22,13 +22,13 @@ function Home() {
             </p>
           </Col>
           <Col xs={12} md={4} className="m-auto">
-            <Image src="./img/1.jpg" fluid />
+            <Image src="./img/1.jpg" fluid roundedCircle />
           </Col>
         </Row>
-        <Row xs={1} md={2} className="mt-4 mx-4 g-2">
+        <Row xs={1} md={2} className="mt-4 mx-4 g-1">
           {cards_img.map((card, idx) => (
             <Col key={idx}>
-              <Card className="text-white" style={{ width: '' }}>
+              <Card className="text-white">
                 <Card.Img src={card.path} />
                 <Card.ImgOverlay className="d-flex">
                   <Card.Title className="align-self-end bg-dark display-4">{card.title}</Card.Title>
@@ -42,7 +42,7 @@ function Home() {
         </Row>
         <Row className="mt-4 mx-3">
           <Col>
-            <Card>
+            <Card className="bg-info">
               <Card.Body>
                 <Card.Title>Consultez notre carte</Card.Title>
                 <Button variant="primary" href="/menu">Menu</Button>

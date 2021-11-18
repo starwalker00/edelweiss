@@ -8,7 +8,7 @@ function Navigation(props) {
     <div className="navigation">
       <Navbar collapseOnSelect expand="sm" bg="dark">
         <Container fluid>
-          <Navbar.Brand href="#">EDELWEISS</Navbar.Brand>
+          <Navbar.Brand href="/">EDELWEISS</Navbar.Brand>
           <Navbar.Toggle aria-controls="offcanvasNavbar" />
           <Navbar.Collapse>
             <Nav className="ms-auto">
