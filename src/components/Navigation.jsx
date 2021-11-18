@@ -14,6 +14,7 @@ function Navigation(props) {
             <Nav className="ms-auto">
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/menu">Menu</Nav.Link>
+              <Nav.Link href="/schedule">Horaires</Nav.Link>
               <Nav.Link href="/about">About</Nav.Link>
             </Nav>
           </Navbar.Collapse>
