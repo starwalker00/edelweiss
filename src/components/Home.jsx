@@ -7,8 +7,8 @@ import { Button } from "react-bootstrap";
 
 function Home() {
   const cards_img = [
-    {path:"./img/home-cards/fondue.jpg", title:"Fondue", description:"Recette incontournable de la gastronomie des Alpes."},
-    {path:"./img/home-cards/raclette.jpg", title:"Raclette", description:"Une spécialité de montagne à dévorer pour les amoureux de fromage."}
+    { path: "./img/home-cards/fondue.jpg", title: "Fondue", description: "Recette incontournable de la gastronomie des Alpes." },
+    { path: "./img/home-cards/raclette.jpg", title: "Raclette", description: "Une spécialité de montagne à dévorer pour les amoureux de fromage." }
   ];
   return (
     <div className="home">
@@ -17,7 +17,7 @@ function Home() {
           <Col xs={12} md={8} className="m-auto">
             <h1>L'Edelweiss</h1>
             <h2>Restaurant Savoyard à Rennes</h2>
-            <p class="lead">
+            <p className="lead">
               Dans un cadre chaleureux, goûtez les principales recettes savoyardes et vivez un moment innoubliable.
             </p>
           </Col>
@@ -27,7 +27,7 @@ function Home() {
         </Row>
         <Row xs={1} md={2} className="mt-4 mx-4 g-2">
           {cards_img.map((card, idx) => (
-            <Col>
+            <Col key={idx}>
               <Card className="text-white" style={{ width: '' }}>
                 <Card.Img src={card.path} />
                 <Card.ImgOverlay className="d-flex">
@@ -48,7 +48,7 @@ function Home() {
                 <Button variant="primary" href="/menu">Menu</Button>
               </Card.Body>
             </Card>
-            </Col>
+          </Col>
         </Row>
         <Row className="mt-4">
           <Col>
@@ -60,8 +60,8 @@ function Home() {
             <Schedule />
           </Col>
         </Row>
-      </Container>
-    </div>
+      </Container >
+    </div >
   );
 }
 
