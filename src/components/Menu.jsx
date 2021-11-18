@@ -26,32 +26,32 @@ function Menu() {
       <Container className="text-center">
         <Row>
           <Col>
-            <Zoom overlayBgColorEnd="rgba(97, 116, 51, 0.75)" overlayBgColorStart="rgba(255, 255, 255, 0)">
+            <Zoom overlayBgColorEnd="rgba(144, 164, 76, 0.75)" overlayBgColorStart="rgba(144, 164, 76, 0)">
               <Image id="carte" className="menu-img img-fluid" src="./img/menu/la-carte_i283726789573158798._szw1280h1280_.jpg" />
             </Zoom>
           </Col>
         </Row>
         <Row>
           <Col>
-            <Zoom>
+            <Zoom overlayBgColorEnd="rgba(144, 164, 76, 0.75)" overlayBgColorStart="rgba(144, 164, 76, 0)">
               <Image id="salades" className="menu-img img-fluid" src="./img/menu/salades_i283726789586962023._szw1280h1280_.jpg" />
             </Zoom>
           </Col>
         </Row>
         <Row>
           <Col>
-            <Zoom>
+            <Zoom overlayBgColorEnd="rgba(144, 164, 76, 0.75)" overlayBgColorStart="rgba(144, 164, 76, 0)">
               <Image id="vins" className="menu-img img-fluid" src="./img/menu/vins1_i283726789586882369._szw1280h1280_.jpg" />
             </Zoom>
           </Col>
         </Row>
         <Row>
           <Col>
-            <Zoom>
+            <Zoom overlayBgColorEnd="rgba(144, 164, 76, 0.75)" overlayBgColorStart="rgba(144, 164, 76, 0)">
               <Image className="menu-img img-fluid" src="./img/menu/vins2_i283726789573158456._szw1280h1280_.jpg" />
             </Zoom>
           </Col>
-        </Row>   
+        </Row>
       </Container>
     </div>
   );
