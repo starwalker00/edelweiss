@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 function About() {
   return (
     <div className="about">
-      <Container>
+      <Container className="mt-2">
         <Row>
           <Col>lundi</Col>
           <Col>12h-13h30 | 19h30-22h</Col>
@@ -12,7 +12,7 @@ function About() {
         <Row>
           <Col>dimanche</Col>
           <Col>fermé</Col>
-        </Row>        
+        </Row>
       </Container>
     </div>
   );

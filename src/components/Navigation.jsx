@@ -4,11 +4,12 @@ import { Navbar, Nav, Container } from "react-bootstrap";
 import { Offcanvas } from "react-bootstrap";
 
 function Navigation(props) {
+  const { location } = props;
   return (
     <div className="navigation">
       <Navbar collapseOnSelect expand="sm" bg="dark">
         <Container fluid>
-          <Navbar.Brand href="/">EDELWEISS</Navbar.Brand>
+          <Navbar.Brand href="/">L'EDELWEISS</Navbar.Brand>
           <Navbar.Toggle aria-controls="offcanvasNavbar" />
           <Navbar.Collapse>
             <Nav className="ms-auto">
@@ -28,14 +29,15 @@ function Navigation(props) {
             placement="end"
           >
             <Offcanvas.Header closeButton>
-              <Offcanvas.Title id="offcanvasNavbarLabel">EDELWEISS</Offcanvas.Title>
+              <Offcanvas.Title id="offcanvasNavbarLabel">L'EDELWEISS</Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <Nav className="justify-content-end flex-grow-1 pe-3">
+              <Nav activeKey={location.pathname} className="justify-content-end flex-grow-1 pe-3">
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/menu">Menu</Nav.Link>
                 <Nav.Link href="/schedule">Horaires</Nav.Link>
                 <Nav.Link href="/about">About</Nav.Link>
+                <hr />
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

@@ -74,3 +74,25 @@ $body-bg: #eef5ce;
 #offcanvasNavbar {
     background-color: $info;
 }
+
+.offcanvas-header {
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom: 1px solid black;
+}
+
+.offcanvas-body {
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom: 1px solid black;
+}
+
+.offcanvas-body .nav-link:hover {
+    font-weight: bold;
+    // background-color: $dark;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+    // background-color: $dark;
+}
