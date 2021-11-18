@@ -18,30 +18,8 @@ $dark:          #90a44c;;
 // $body-bg: #617433;
 // $body-color: #111;
 
-// remove burger menu icon borders
-$navbar-light-toggler-border-color: rgba(255, 255, 255, 0);
-$navbar-light-toggler-border-color: rgba(255, 255, 255, 0);
-
 // Bootstrap and its default variables
 @import "~bootstrap/scss/bootstrap";
-
-// modify toggler-icon outline
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-    // outline-width: 1px;
-    // box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
-    outline-width: none;
-    box-shadow: none;
-}
-
-// switch navbar-icon between burger and cross
-.navbar-toggler.collapsed .close-icon {
-    display: none;
-}
-.navbar-toggler:not(.collapsed) .navbar-toggler-icon {
-    display: inline;
-}
 
 // adjust top level of menu-img when scrolling to anchor by clicking menu
 .menu-img {
@@ -86,3 +64,8 @@ $navbar-light-toggler-border-color: rgba(255, 255, 255, 0);
         margin-right: auto;
     }
 }
+
+// gradient on main navbar
+// .navigation nav {
+//     background-image: var(--bs-gradient);
+// }
