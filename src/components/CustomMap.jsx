@@ -1,5 +1,6 @@
 import React from 'react';
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
+import { Container, Row, Col } from 'react-bootstrap';
 
 function CustomMap() {
   const containerStyle = {
@@ -21,20 +22,34 @@ function CustomMap() {
   //   color: "#90a44c"
   // }
   return (
-    <LoadScript
-      googleMapsApiKey="AIzaSyBl2oJaWVIAGrzYmMPeHSm0IQnwVm0WXMU"
-    >
-      <GoogleMap
-        mapContainerStyle={containerStyle}
-        center={defaultCenter}
-        zoom={14}
-      >
-        { /* Child components, such as markers, info windows, etc. */}
-        <Marker
-          position={defaultMarker}
-        />
-      </GoogleMap>
-    </LoadScript>
+    <Container>
+      <Row>
+        <Col>
+          <LoadScript
+            googleMapsApiKey="AIzaSyBl2oJaWVIAGrzYmMPeHSm0IQnwVm0WXMU"
+          >
+            <GoogleMap
+              mapContainerStyle={containerStyle}
+              center={defaultCenter}
+              zoom={14}
+            >
+              { /* Child components, such as markers, info windows, etc. */}
+              <Marker
+                position={defaultMarker}
+              />
+            </GoogleMap>
+          </LoadScript>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <a href="https://www.google.com/maps/search/?api=1&query=edelweiss+rennes">
+            Itinéraire via google maps
+          </a>
+        </Col>
+      </Row>
+
+    </Container >
   )
 }
 
