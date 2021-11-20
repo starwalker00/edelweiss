@@ -7,7 +7,7 @@
 // $body-bg: #90a44c;
 // $body-bg: #c00c04; //red
 $primary:       #90a44c;
-$secondary:     #cccccc;
+$secondary:     #dddddd;
 // $success:       $green !default;
 // $info:          $cyan !default;
 $info:          #eef5ce;
@@ -17,7 +17,7 @@ $light:         #fffcfc;
 $dark:          #90a44c;;
 
 $body-bg: #eef5ce;
-// $body-color: #111;
+// $body-color: #000;
 
 // Bootstrap and its default variables
 @import "~bootstrap/scss/bootstrap";
@@ -52,7 +52,7 @@ $body-bg: #eef5ce;
 /* md */
 @media (min-width: 992px) {
     .menu-img {
-        width: 70%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;        
     }
@@ -60,16 +60,11 @@ $body-bg: #eef5ce;
 /* lg */
 @media (min-width: 1200px) {
     .menu-img {
-        width: 70%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
 }
-
-// gradient on main navbar
-// .navigation nav {
-//     background-image: var(--bs-gradient);
-// }
 
 #offcanvasNavbar {
     background-color: $info;
