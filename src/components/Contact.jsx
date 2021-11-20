@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Form } from "react-bootstrap";
+import { Form, Button } from "react-bootstrap";
 
 function Contact() {
   return (
@@ -30,6 +30,11 @@ function Contact() {
                 <Form.Label>Message</Form.Label>
                 <Form.Control as="textarea" rows={7} />
               </Form.Group>
+              <div className="d-grid mx-5 my-5">
+                <Button className="mb-2" variant="outline-primary" size="lg" type="submit">
+                  Envoyer
+                </Button>
+              </div>
             </Form>
           </Col>
         </Row>
