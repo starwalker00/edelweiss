@@ -7,7 +7,7 @@ function Contact() {
     <div className="contact">
       <Container className="text-center shadow-lg">
         <Row>
-          <Col className="display-6 m-2">Contact</Col>
+          <Col className="display-6 mt-3">Contact</Col>
         </Row>
         <hr />
         <Row>

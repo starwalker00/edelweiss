@@ -6,9 +6,9 @@ function Schedule() {
     <div className="schedule">
       <Container className="text-center shadow-lg">
         <Row>
-          <Col className="display-6 mt-2">Horaires d'ouverture</Col>
+          <Col className="display-6 mt-3">Horaires d'ouverture</Col>
         </Row>
-        <hr />
+        <hr className="mt-2" />
         <Row className="py-3">
           <Col xs={{ span: 4, offset: 0 }} md={{ span: 3, offset: 2 }} lg={{ span: 2, offset: 3 }}>lundi</Col>
           <Col xs={8} md={6} lg={4}>12h-13h30 | 19h30-22h</Col>
