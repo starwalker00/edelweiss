@@ -5,7 +5,7 @@ import { Carousel } from "react-bootstrap";
 function MyCarousel() {
   return (
     <div className="mycarousel">
-      <Container className="text-center"> 
+      <Container className="text-center">
         <Row>
           <Col>
             <Carousel>
@@ -16,7 +16,7 @@ function MyCarousel() {
                   alt="First slide"
                 />
                 <Carousel.Caption>
-                  <h3>First slide label</h3>
+                  {/* <h3>First slide label</h3> */}
                 </Carousel.Caption>
               </Carousel.Item>
               <Carousel.Item>
@@ -26,13 +26,13 @@ function MyCarousel() {
                   alt="Second slide"
                 />
                 <Carousel.Caption>
-                  <h3>Second slide label</h3>
-                  <p>Lorem ipsum dolor sit amet</p>
+                  {/* <h3>Second slide label</h3>
+                  <p>Lorem ipsum dolor sit amet</p> */}
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
           </Col>
-        </Row>  
+        </Row>
       </Container>
     </div>
   );
