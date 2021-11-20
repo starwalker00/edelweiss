@@ -87,12 +87,20 @@ $body-bg: #eef5ce;
     border-bottom: 1px solid black;
 }
 
+// navigation links in offcanvas
+.offcanvas-body .nav-link {
+    transition: .4s;
+}
 .offcanvas-body .nav-link:hover {
-    font-weight: bold;
-    // background-color: $dark;
+    box-shadow: 0 3px 0px $primary;
+    font-weight: 600!important;
 }
 
+// navigation links in normal navbar
+.nav-link {
+    transition: .4s;
+}
 .nav-link:hover {
-    font-weight: bold;
-    // background-color: $dark;
+    box-shadow: 0 3px 0px $body-bg;
+    font-weight: 500!important;
 }
