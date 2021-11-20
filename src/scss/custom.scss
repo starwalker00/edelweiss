@@ -97,10 +97,19 @@ $body-bg: #eef5ce;
 }
 
 // navigation links in normal navbar
-.nav-link {
+.navigation .nav-link {
     transition: .4s;
 }
-.nav-link:hover {
+.navigation .nav-link:hover {
     box-shadow: 0 3px 0px $body-bg;
+    font-weight: 500!important;
+}
+
+// navigation links in menu (carte des plats)
+.menu .nav-link {
+    transition: .4s;
+}
+.menu .nav-link:hover {
+    box-shadow: 0 3px 0px $primary;
     font-weight: 500!important;
 }
