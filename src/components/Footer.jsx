@@ -23,6 +23,15 @@ function Footer() {
                 <li><a className="link-secondary" href="/menu"> Menu </a></li>
                 <li><a className="link-secondary" href="/schedule"> Horaires </a></li>
                 <li><a className="link-secondary" href="/contact"> Contact </a></li>
+                <li>
+                  <a
+                    className="link-secondary"
+                    href="https://www.google.com/maps/search/?api=1&query=edelweiss+rennes"
+                    target="_blank" rel="noreferrer">
+                    Itinéraire via google maps
+                    <i className="gg-external"></i>
+                  </a>
+                </li>
               </ul>
             </Col>
           </Row>
