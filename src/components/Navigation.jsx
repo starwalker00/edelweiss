@@ -20,10 +20,6 @@ function Navigation(props) {
             </Nav>
           </Navbar.Collapse>
           <Navbar.Offcanvas
-            className=""
-            // style={{
-            //   background: "rgba(76, 0, 0, 1)"
-            // }}
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
             placement="end"
