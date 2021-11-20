@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 function Schedule() {
   return (
     <div className="schedule">
-      <Container className="text-center shadow-lg mt-2">
+      <Container className="text-center shadow-lg">
         <Row>
           <Col className="display-6 mt-2">Horaires d'ouverture</Col>
         </Row>
