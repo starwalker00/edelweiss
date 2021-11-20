@@ -23,7 +23,7 @@ function Home() {
             </p>
           </Col>
           <Col xs={12} md={4} className="m-auto">
-            <Image src="./img/1.jpg" fluid roundedCircle />
+            <Image className="storefront" src="./img/1.jpg" fluid />
           </Col>
         </Row>
         <Row xs={1} md={2} className="mt-4 mx-4 g-1">
