@@ -42,8 +42,8 @@ function CustomMap() {
         </Col>
       </Row>
       <Row>
-        <Col>
-          <a href="https://www.google.com/maps/search/?api=1&query=edelweiss+rennes">
+        <Col className="my-3">
+          <a href="https://www.google.com/maps/search/?api=1&query=edelweiss+rennes" target="_blank" rel="noreferrer">
             Itinéraire via google maps
           </a>
         </Col>
