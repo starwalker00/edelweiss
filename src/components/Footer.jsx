@@ -36,8 +36,9 @@ function Footer() {
             </Col>
           </Row>
           <Row>
-            <Col className="footer-copyright text-center py-3">© 2021 Copyright:
-              <a className="link-secondary mx-2" target="_blank" href="https://blank.page/" rel="noreferrer">https://blank.page/</a>
+            <Col className="footer-copyright text-center py-3">
+              2021
+              {/* © 2021 Copyright :<a className="link-secondary mx-2" target="_blank" href="https://blank.page/" rel="noreferrer">https://blank.page/</a> */}
             </Col>
           </Row>
         </Container>
