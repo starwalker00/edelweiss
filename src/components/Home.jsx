@@ -26,7 +26,7 @@ function Home() {
             <Image className="storefront" src="./img/1.jpg" fluid />
           </Col>
         </Row>
-        <Row xs={1} md={2} className="mt-4 mx-4 g-1">
+        <Row xs={1} md={2} className="mt-4 mx-xs-4 g-1">
           {cards_img.map((card, idx) => (
             <Col key={idx}>
               <Card className="text-white">
