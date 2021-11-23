@@ -8,7 +8,7 @@ function Footer() {
         <Container fluid className="text-center text-md-left">
           <Row xs={1} md={2}>
             <Col>
-              <h5 className="text-uppercase">Restaurant l'Edelweiss</h5>
+              <h5 className="text-uppercase">Restaurant <span className="footer-brand">l'Edelweiss</span></h5>
               <p>34 Rue de Saint-Malo, 35000 Rennes
                 <br />
                 Réservations par téléphone
