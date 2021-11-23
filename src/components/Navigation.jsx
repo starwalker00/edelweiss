@@ -33,6 +33,7 @@ function Navigation(props) {
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/menu">Menu</Nav.Link>
                 <Nav.Link href="/schedule">Horaires</Nav.Link>
+                <Nav.Link href="/access">Accès</Nav.Link>
                 <Nav.Link href="/contact">Contact</Nav.Link>
                 <hr />
               </Nav>
