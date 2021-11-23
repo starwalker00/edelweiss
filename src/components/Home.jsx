@@ -16,8 +16,8 @@ function Home() {
       <Container fluid="md" className="text-center">
         <Row className="mt-4">
           <Col xs={12} md={8} className="m-auto">
-            <h1>L'Edelweiss</h1>
-            <h2>Restaurant Savoyard <a href="#map" className="lead text-nowrap link-dark">Rue de Saint-Malo à Rennes</a></h2>
+            <h1 className="home-brand">L'EDELWEISS</h1>
+            <h2>Restaurant Savoyard <a href="#map" className="lead text-nowrap link-dark fw-bold">Rue de Saint-Malo à Rennes</a></h2>
             <p className="p-2 mark">
               Dans un cadre chaleureux, goûtez les principales recettes savoyardes et vivez un moment innoubliable.
             </p>
@@ -43,7 +43,7 @@ function Home() {
         </Row>
         <Row className="mt-4 mx-3">
           <Col className="d-grid mx-5">
-            <Button variant="primary" href="/menu" size="lg" className="text-white bold">Consulter notre carte</Button>
+            <Button variant="primary" href="/menu" size="lg" className="text-white bold">Consultez notre carte</Button>
           </Col>
         </Row>
         <Row className="mt-4">

@@ -177,3 +177,15 @@ $body-bg: #eef5ce;
 .nav-link {
     font-size: 18px;
 }
+
+// custom font for brand title
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@1,300&display=swap');
+
+$font-main-title: 'Mali', cursive;   
+
+.navbar-brand,.home-brand {
+    font-family: $font-main-title;
+    text-transform: uppercase;
+    font-weight: bold;
+}
