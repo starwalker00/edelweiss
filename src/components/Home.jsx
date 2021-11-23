@@ -19,7 +19,7 @@ function Home() {
             <h1 className="home-brand">L'EDELWEISS</h1>
             <h2>Restaurant Savoyard <a href="#map" className="lead text-nowrap link-dark fw-bold">Rue de Saint-Malo à Rennes</a></h2>
             <p className="p-2 mark">
-              Dans un cadre chaleureux, goûtez les principales recettes savoyardes et vivez un moment innoubliable.
+              Dans un cadre chaleureux, goûtez les principales recettes savoyardes et vivez un moment inoubliable.
             </p>
           </Col>
           <Col xs={12} md={4} className="m-auto">
