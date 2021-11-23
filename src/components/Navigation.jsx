@@ -13,7 +13,7 @@ function Navigation(props) {
           <Navbar.Toggle aria-controls="offcanvasNavbar" />
           <Navbar.Collapse>
             <Nav className="ms-auto">
-              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/">Accueil</Nav.Link>
               <Nav.Link href="/menu">Menu</Nav.Link>
               <Nav.Link href="/schedule">Horaires</Nav.Link>
               <Nav.Link href="/contact">Contact</Nav.Link>
