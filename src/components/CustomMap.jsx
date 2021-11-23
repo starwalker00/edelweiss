@@ -22,7 +22,11 @@ function CustomMap() {
   //   color: "#90a44c"
   // }
   return (
-    <Container>
+    <Container className="text-center shadow">
+      <Row>
+        <Col className="display-6 mt-3">Accès</Col>
+      </Row>
+      <hr />
       <Row>
         <Col>
           <LoadScript
