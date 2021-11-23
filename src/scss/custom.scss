@@ -151,3 +151,25 @@ $body-bg: #eef5ce;
     border-top: 2px solid;
     top: -4px
 }
+
+// scrollbar styling
+/* Works on Firefox */
+* {
+    scrollbar-width: auto;
+    scrollbar-color: $primary $secondary;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: $secondary;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: $primary;
+    border-radius: 20px;
+    border: 3px solid $secondary;
+  }
